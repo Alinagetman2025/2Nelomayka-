@@ -161,32 +161,7 @@ body {
     left: -30px;
   }
 }
-.куратор {
-  width: 1270px;
-  height: 300px;
-  background-color: #0207a2e4;
-  overflow: hidden;
-  position: relative;
-}
-.куратор p {
-  width: 1280px;
-  line-height: 120px;
-  font-size: 120px;
-  color: rgb(255, 0, 0);
-  animation: runnin 3s infinite alternate;
-  position: absolute;
-}
-section3 {
-  display: flex;
-}
-.waw01 {
-  display: grid;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  background-color: #fbd218;
-  animation: circle-to-square3 2s infinite alternate-reverse ease-in 1s;
-}
+
 /*-часть2-*/
 @keyframes circle-to-square1 {
   from {
@@ -324,7 +299,7 @@ section3 {
 }
 
 .wow {
-  width: 1280x;
+  width: 1280px;
   height: 120px;
   background-color: #232aaf;
   overflow: hidden;
