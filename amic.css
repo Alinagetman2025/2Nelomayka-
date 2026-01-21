@@ -452,3 +452,8 @@ section3 {
 .svg-element:hover {
   animation: 3s linear 1s infinite running slide-in;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
