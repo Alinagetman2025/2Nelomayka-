@@ -1,0 +1,14 @@
+@import "index.css";
+@import "reset.css";
+@import "sidebar.css";
+@import "content.css";
+@import "menubar.css";
+@import "adaptive.css";
+body {
+  background-color: #f7ead6;
+}
+#box01 {
+  width: 250px;
+  height: 250px;
+  background-color: blueviolet;
+}
