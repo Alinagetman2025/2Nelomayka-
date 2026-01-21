@@ -1,2 +1,0 @@
-# 2Nelomayka-
-Nelomayka!
