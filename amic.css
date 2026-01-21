@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  height: 100vh;
+  display: flex-end;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7d2b4;
+}
+
+@keyframes circle-to-square3 {
+  from {
+    width: 50px;
+    height: 50px;
+    background-color: #fbd218;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+    background-color: #2e9aff;
+  }
+}
+#box01 {
+  width: 500px;
+  height: 250px;
+  background-color: #f90047;
+  font-size: 13em;
+  text-align: center;
+  animation-name: slideleft;
+  animation-duration: 1s;
+}
+
+@keyframes slideleft {
+  from {
+    transform: translateX(100%);
+  }
+}
+#box03 {
+  width: 1280px;
+  height: 300px;
+  background-color: #872843;
+  font-size: 13em;
+  animation-name: slideleft2;
+  animation-duration: 1s;
+}
+/*001*/
+.wow04 {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  background-color: #0207a2e4;
+  overflow: hidden;
+  position: relative;
+}
+.wow04 p {
+  width: 1280px;
+  line-height: 20px;
+  font-size: 20px;
+  color: #f90047;
+  animation: runnin 3s infinite alternate;
+  position: absolute;
+}
+@keyframes runnin {
+  from {
+    left: 30px;
+  }
+  to {
+    left: -30px;
+  }
+}
+/*002*/
+.ww5 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #fbd218;
+  animation: circle-to-square3 2s infinite alternate-reverse ease-in 1s;
+}
+
+@keyframes circle-to-square3 {
+  from {
+    width: 50px;
+    height: 50px;
+    background-color: #fbd218;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+    background-color: #2e9aff;
+  }
+}
+.ww4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 90%;
+  background-color: #fbd218;
+}
+.wowe {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #fdaeef;
+  animation: circle-to-square3 2s infinite alternate-reverse ease-in 1s;
+}
+
+@keyframes circle-to-square3 {
+  from {
+    width: 50px;
+    height: 50px;
+    background-color: #f498ad;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+    background-color: #2e9aff;
+  }
+}
+.w-cube {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #fbd218;
+  animation: circle-to-square1 3s infinite alternate-reverse ease-in 5s;
+  animation-play-state: running;
+}
+.wow04 {
+  width: 50px;
+  height: 50px;
+  background-color: #0207a2e4;
+  overflow: hidden;
+  position: relative;
+}
+.wow04 p {
+  width: 1280px;
+  line-height: 20px;
+  font-size: 20px;
+  color: #f90047;
+  animation: runnin 3s infinite alternate;
+  position: absolute;
+}
+@keyframes runnin {
+  from {
+    left: 30px;
+  }
+  to {
+    left: -30px;
+  }
+}
+.куратор {
+  width: 1270px;
+  height: 300px;
+  background-color: #0207a2e4;
+  overflow: hidden;
+  position: relative;
+}
+.куратор p {
+  width: 1280px;
+  line-height: 120px;
+  font-size: 120px;
+  color: rgb(255, 0, 0);
+  animation: runnin 3s infinite alternate;
+  position: absolute;
+}
+section3 {
+  display: flex;
+}
+.waw01 {
+  display: grid;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #fbd218;
+  animation: circle-to-square3 2s infinite alternate-reverse ease-in 1s;
+}
+/*-часть2-*/
+@keyframes circle-to-square1 {
+  from {
+    width: 50px;
+    height: 50px;
+    background-color: #100249;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+    background-color: #2e9aff;
+  }
+}
+.ww3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 90%;
+  background-color: #fbd218;
+}
+
+@keyframes circle-to-square1 {
+  from {
+    width: 50px;
+    height: 50px;
+    background-color: #100249;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+    background-color: #2e9aff;
+  }
+}
+.e02-cube {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #1cd3c6;
+  animation: circle-to-square2 2s infinite alternate-reverse ease-in 3s;
+  animation-play-state: running;
+  z-index: -1;
+}
+
+@keyframes circle-to-square2 {
+  from {
+    width: 50px;
+    height: 50px;
+    background-color: #61051a;
+  }
+  to {
+    width: 60px;
+    height: 60px;
+    background-color: #10cac1;
+    animation: circle-to-square 4s infinite alternate ease-in-out 3s;
+  }
+}
+.ww9 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: rgb(255, 123, 0);
+  animation: circle-to-square3 2s infinite alternate-reverse ease-in 1s;
+}
+
+@keyframes circle-to-square3 {
+  from {
+    width: 50px;
+    height: 50px;
+    background-color: #f498ad;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+    background-color: #232aaf;
+  }
+}
+.ww2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #1cd3c6;
+  animation: circle-to-square2 1s infinite alternate-reverse ease-in 2s;
+  animation-play-state: running;
+}
+@keyframes circle-to-square2 {
+  from {
+    width: 100px;
+    height: 100px;
+    background-color: #f90047;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+    background-color: #232aaf;
+    animation: circle-to-square 1s infinite alternate ease-in-out 2s;
+  }
+}
+
+@keyframes circle-to-square2 {
+  from {
+    width: 50px;
+    height: 50px;
+    background-color: #f90047;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+    background-color: #fdaeef;
+    animation: circle-to-square 1s infinite alternate ease-in-out 2s;
+  }
+}
+.runnin-string {
+  width: 150x;
+  height: 150px;
+  background-color: #fdaeef;
+  overflow: hidden;
+  position: relative;
+}
+.runnin-string p {
+  width: 1280px;
+  line-height: 120px;
+  font-size: 120px;
+  color: #10185a;
+  display: flex;
+  text-align: center;
+  animation: runnin 6s infinite alternate;
+  position: absolute;
+}
+@keyframes runnin {
+  from {
+    left: 100px;
+  }
+  to {
+    left: -100px;
+  }
+}
+
+.wow {
+  width: 1280x;
+  height: 120px;
+  background-color: #232aaf;
+  overflow: hidden;
+  position: relative;
+}
+.wow p {
+  width: 1280px;
+  line-height: 40px;
+  font-size: 40px;
+  color: #10cac1;
+  animation: runnin 5s infinite alternate;
+  position: absolute;
+}
+@keyframes runnin {
+  from {
+    left: 400px;
+  }
+  to {
+    left: -400px;
+  }
+}
+.wow1 {
+  width: 1280x;
+  height: 120px;
+  background-color: #000000;
+  overflow: hidden;
+  position: relative;
+}
+.wow03 {
+  width: 1280px;
+  height: 200px;
+  background-color: #fdaeef;
+  overflow: hidden;
+  position: relative;
+}
+.wow03 p {
+  width: 1280px;
+  line-height: 50px;
+  font-size: 50px;
+  color: #61051a;
+  animation: runnin 3s infinite alternate;
+  position: absolute;
+}
+/*-часть5-*/
+.wow04 {
+  width: 1280px;
+  height: 100px;
+  background-color: #0207a2e4;
+  overflow: hidden;
+  position: relative;
+}
+.wow04 p {
+  width: 1280px;
+  line-height: 20px;
+  font-size: 20px;
+  color: #f90047;
+  animation: runnin 3s infinite alternate;
+  position: absolute;
+}
+@keyframes runnin {
+  from {
+    left: 30px;
+  }
+  to {
+    left: -30px;
+  }
+}
+/*------------------*/
+.png {
+  width: 1280px;
+  line-height: 20px;
+  font-size: 20px;
+}
+.toys01 {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.toys02 {
+  width: 255px;
+  height: 300px;
+}
+.box4 {
+  width: 1280px;
+  height: 1280px;
+}
+.box02 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #fbd218;
+  animation: circle-to-square3 2s infinite alternate-reverse ease-in 1s;
+}
+@keyframes runnin {
+  from {
+    left: 30px;
+  }
+  to {
+    left: -30px;
+  }
+}
