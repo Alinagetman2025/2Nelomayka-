@@ -4,24 +4,27 @@
   box-sizing: border-box;
 }
 
-.body {
-  height: 100vh;
-  display: flex-end;
-  justify-content: center;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   background-color: #e7d2b4;
+  padding: 20px;
 }
-
 @keyframes circle-to-square3 {
-  from {
+  0% {
     width: 50px;
     height: 50px;
     background-color: #fbd218;
+    border-radius: 50%;
   }
-  to {
+  100% {
     width: 200px;
     height: 200px;
     background-color: #2e9aff;
+    border-radius: 10%;
   }
 }
 #box01 {
@@ -30,13 +33,20 @@
   background-color: #f90047;
   font-size: 13em;
   text-align: center;
-  animation-name: slideleft;
-  animation-duration: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slideleft 1s ease-out forwards;
 }
 
 @keyframes slideleft {
   from {
     transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 #box03 {
@@ -151,32 +161,7 @@
     left: -30px;
   }
 }
-.куратор {
-  width: 1270px;
-  height: 300px;
-  background-color: #0207a2e4;
-  overflow: hidden;
-  position: relative;
-}
-.куратор p {
-  width: 1280px;
-  line-height: 120px;
-  font-size: 120px;
-  color: rgb(255, 0, 0);
-  animation: runnin 3s infinite alternate;
-  position: absolute;
-}
-section3 {
-  display: flex;
-}
-.waw01 {
-  display: grid;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  background-color: #fbd218;
-  animation: circle-to-square3 2s infinite alternate-reverse ease-in 1s;
-}
+
 /*-часть2-*/
 @keyframes circle-to-square1 {
   from {
@@ -288,8 +273,8 @@ section3 {
   }
 }
 .runnin-string {
-  width: 150x;
-  height: 150px;
+  width: 1280px;
+  height: 200px;
   background-color: #fdaeef;
   overflow: hidden;
   position: relative;
@@ -314,8 +299,8 @@ section3 {
 }
 
 .wow {
-  width: 1280x;
-  height: 120px;
+  width: 1280px;
+  height: 200px;
   background-color: #232aaf;
   overflow: hidden;
   position: relative;
@@ -419,4 +404,31 @@ section3 {
   to {
     left: -30px;
   }
+}
+#box7 {
+  width: 500px;
+  height: 250px;
+  background-color: #f90047;
+  font-size: 13em;
+  text-align: center;
+  animation-name: slideleft;
+  animation-duration: 1s;
+}
+
+@keyframes slideleft {
+  from {
+    transform: translateX(100%);
+  }
+}
+.svg-element {
+  animation: 3s linear 1s infinite running slide-in;
+}
+
+.svg-element:hover {
+  animation: 3s linear 1s infinite running slide-in;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
