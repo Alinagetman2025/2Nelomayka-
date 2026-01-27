@@ -432,3 +432,30 @@ body {
   display: flex;
   justify-content: center;
 }
+.tutu {
+  animation: floatUpDown 2.5s ease-in-out infinite;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+.ball {
+  width: 50px;
+  height: 25px;
+  font-size: 13em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slideleft 1s ease-out forwards;
+}
+
+@keyframes slideleft {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
