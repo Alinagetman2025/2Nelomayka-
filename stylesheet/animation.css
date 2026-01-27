@@ -52,30 +52,3 @@
     border-radius: 10%;
   }
 }
-.runnin-string-img1 {
-  width: 300px;
-  height: 250px;
-  font-size: 13em;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  animation: pulse 4s infinite;
-}
-.runnin-string-img2 {
-  width: 300px;
-  height: 250px;
-  font-size: 13em;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  animation: pulse 4s infinite;
-}
-.runnin-string-img3 {
-  width: 300px;
-  height: 250px;
-  font-size: 13em;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  animation: pulse 4s infinite;
-}
