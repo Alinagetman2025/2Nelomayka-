@@ -459,3 +459,13 @@ body {
     opacity: 1;
   }
 }
+.place {
+  width: 1280px;
+  height: 500px;
+  font-size: 13em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: slideleft 1s ease-out forwards;
+}
