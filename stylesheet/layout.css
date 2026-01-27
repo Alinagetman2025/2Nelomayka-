@@ -89,22 +89,7 @@ body {
   overflow: hidden;
   position: relative;
 }
-.wow04 p {
-  width: 1280px;
-  line-height: 20px;
-  font-size: 20px;
-  color: #f90047;
-  animation: runnin 3s infinite alternate;
-  position: absolute;
-}
-@keyframes runnin {
-  from {
-    left: 30px;
-  }
-  to {
-    left: -30px;
-  }
-}
+
 /*002*/
 
 @keyframes circle-to-square3 {
