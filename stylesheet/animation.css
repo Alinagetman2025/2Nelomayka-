@@ -14,6 +14,22 @@
     left: -30px;
   }
 }
+.wow09 p {
+  width: 1280px;
+  line-height: 20px;
+  font-size: 20px;
+  color: #a00750;
+  animation: runnin 4s infinite alternate;
+  position: absolute;
+}
+@keyframes runnin {
+  from {
+    left: 30px;
+  }
+  to {
+    left: -30px;
+  }
+}
 .puppet {
   width: 50px;
   height: 25px;
@@ -21,7 +37,6 @@
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
   animation: pulse 4s infinite;
 }
 @keyframes circle-to-square90 {
