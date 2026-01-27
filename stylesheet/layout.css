@@ -461,11 +461,21 @@ body {
 }
 .place {
   width: 1280px;
-  height: 500px;
+  height: 700px;
   font-size: 13em;
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  animation: slideleft 1s ease-out forwards;
+}
+.stop {
+  width: 1280px;
+  height: 700px;
+  font-size: 13em;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
   justify-content: center;
   animation: slideleft 1s ease-out forwards;
 }
