@@ -456,3 +456,11 @@ img {
 .runnin-string-img1 {
   animation: 3s linear 1s infinite running slide-in;
 }
+.section5 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #fbd218;
+  animation: circle-to-square1 3s infinite alternate-reverse ease-in 5s;
+  animation-play-state: running;
+}
