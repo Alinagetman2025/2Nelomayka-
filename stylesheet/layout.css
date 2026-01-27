@@ -426,3 +426,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.animated-img {
+  width: 1280px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
