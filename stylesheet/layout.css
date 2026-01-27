@@ -49,8 +49,7 @@ body {
     opacity: 1;
   }
 }
-#box07
- {
+#box07 {
   width: 500px;
   height: 250px;
   background-color: #f90047;
@@ -452,5 +451,8 @@ img {
   animation: 3s linear 1s infinite running slide-in;
 }
 .animated-img1 {
+  animation: 3s linear 1s infinite running slide-in;
+}
+.runnin-string-img1 {
   animation: 3s linear 1s infinite running slide-in;
 }
