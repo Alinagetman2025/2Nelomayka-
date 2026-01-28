@@ -481,12 +481,13 @@ body {
 }
 .start {
   width: 1280px;
-  height: 700px;
+  height: 450px;
   font-size: 13em;
   text-align: center;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+
 /*
 animation: slideleft 1s ease-out forwards;
