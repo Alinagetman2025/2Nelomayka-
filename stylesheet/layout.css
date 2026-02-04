@@ -488,6 +488,22 @@ body {
   align-items: flex-start;
   justify-content: space-around;
 }
+.train {
+  animation: trainAnim 6s steps(5) infinite;
+  margin-top: 0vw;
+  margin-left: 0vw;
+}
+
+@keyframes trainAnim {
+  10% {
+    margin-top: 0vw;
+    margin-left: 50vw;
+  }
+  100% {
+    margin-top: 0vw;
+    margin-left: 50vw;
+  }
+}
 
 /*
 animation: slideleft 1s ease-out forwards;
