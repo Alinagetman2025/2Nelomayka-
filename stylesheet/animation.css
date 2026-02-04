@@ -75,3 +75,16 @@
     opacity: 1;
   }
 }
+#train.svg {
+  animation: trainAnim 3s steps(1) infinite;
+}
+@keyframes train {
+  0% {
+    top: 50%;
+    left: -300px;
+  }
+  100% {
+    top: 50%;
+    left: 100vw;
+  }
+}
