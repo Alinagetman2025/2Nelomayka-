@@ -75,16 +75,26 @@
     opacity: 1;
   }
 }
-#train.svg {
-  animation: trainAnim 3s steps(1) infinite;
+.train {
+  animation: trainAnim 6s steps(1) infinite;
+  margin-top: 0vw;
+  margin-left: -300vw;
+  background-image: url("/image/train.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: lamp;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  /*animation-direction: alternate-reverse;*/
+  animation-timing-function: cubic-bezier(1, 0, 0, 1);
 }
-@keyframes train {
-  0% {
-    top: 50%;
-    left: -300px;
+@keyframes trainAnim {
+  10% {
+    margin-top: 0vw;
+    margin-left: -300vw;
   }
   100% {
-    top: 50%;
-    left: 100vw;
+    margin-top: 50vw;
+    margin-left: 100vw;
   }
 }
